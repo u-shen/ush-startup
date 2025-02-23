@@ -1,15 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Cookie, Roboto } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header/page";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const cookie = Cookie({
+  variable: "--font-cookie",
   subsets: ["latin"],
+  weight: "400",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const roboto = Roboto({
+  variable: "--font-roboto",
   subsets: ["latin"],
+  weight: ["400", "700", "900"],
 });
 
 export const metadata: Metadata = {
@@ -25,8 +28,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${cookie.variable} ${roboto.className} antialiased relative bg-slate-100 text-gray-800 tracking-tight`}
       >
+        <Header />
         {children}
       </body>
     </html>
