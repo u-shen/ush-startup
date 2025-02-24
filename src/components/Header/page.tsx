@@ -19,7 +19,7 @@ export default function Header() {
       transition={{
         duration: 0.5,
       }}
-      className="bg-[#3FBBA9]/40 relative z-[999] px-10"
+      className="relative z-[999] px-10"
     >
       <div className="header flex justify-between items-center p-4">
         <div
@@ -43,18 +43,15 @@ export default function Header() {
               <motion.ul
                 initial={{
                   height: 0,
-                  scaleY: 0,
                 }}
                 animate={{
                   height: "auto",
-                  scaleY: 1,
                 }}
                 transition={{
                   duration: 0.5,
                 }}
                 exit={{
                   height: 0,
-                  scaleY: 0,
                 }}
                 className="absolute overflow-hidden bg-[#3FBBA9]/15 min-w-[250px] text-xl -left-[200px]
                 md:-left-[200px] font-bold top-[60px] flex flex-col gap-4 backdrop-blur-md
