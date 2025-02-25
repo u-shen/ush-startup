@@ -24,3 +24,30 @@ export const Links = [
     icon: <MdMiscellaneousServices />,
   },
 ];
+
+export const ServicesData = [
+  {
+    title: "Weebsite",
+    image: "img",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsa, facilis adipisci provident cupiditate dolore pariatur vitae assumenda quis, beatae iure temporibus accusantium atque nostrum incidunt, autem iusto? Ad, fugiat, optio iusto inventore quod exercitationem sit error voluptas consectetur incidunt ",
+  },
+  {
+    title: "Consition Graphique",
+    image: "img",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsa, facilis adipisci provident cupiditate dolore pariatur vitae assumenda quis, beatae iure temporibus accusantium atque nostrum incidunt, autem iusto? Ad, fugiat, optio iusto inventore quod exercitationem sit error voluptas consectetur incidunt ",
+  },
+  {
+    title: "E-Commerce",
+    image: "img",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsa, facilis adipisci provident cupiditate dolore pariatur vitae assumenda quis, beatae iure temporibus accusantium atque nostrum incidunt, autem iusto? Ad, fugiat, optio iusto inventore quod exercitationem sit error voluptas consectetur incidunt ",
+  },
+  {
+    title: "Landing Page",
+    image: "img",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsa, facilis adipisci provident cupiditate dolore pariatur vitae assumenda quis, beatae iure temporibus accusantium atque nostrum incidunt, autem iusto? Ad, fugiat, optio iusto inventore quod exercitationem sit error voluptas consectetur incidunt ",
+  },
+];

@@ -31,10 +31,10 @@ export default function Landing() {
           </div>
           <p>Here You Can Put a Short Descroption about your projects</p>
           <div className="button flex gap-3">
-            <button className="bg-[#3FB8A9] px-4 py-2 rounded-md">
+            <button className="bg-[#dde5c2] px-4 py-2 rounded-md">
               Contatcs Us
             </button>
-            <button className="px-4 py-2 rounded-md border border-[#3FB8A9] ">
+            <button className="px-4 py-2 rounded-md border border-[#dde5c2] ">
               Show Our Projects
             </button>
           </div>
@@ -56,7 +56,7 @@ export default function Landing() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, natus.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, natus.
         </div>
-        <div className="arrow-btn font-bold text-[#3FB8A9] text-8xl animate-bounce w-fit mx-auto">
+        <div className="arrow-btn font-bold text-[#dde5c2] text-8xl animate-bounce w-fit mx-auto">
           <RiScrollToBottomFill />
         </div>
       </div>
